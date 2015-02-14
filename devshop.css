@@ -1,0 +1,52 @@
+body {
+	background: linear-gradient( to top, #000080, #0000B2, #0066FF);
+}
+
+/** Navigation **/
+.navigation-wrapper {
+	position: relative;
+	width: 98%;
+	height:100px;
+	padding-top:20px;
+	padding-bottom:auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.corner-logo {
+	float: left;
+	width: 100px;
+	height: auto;
+	position: block;
+}
+.navigation-bar {
+	width: 90%;
+	height: 60%;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 2em;
+	font-family: league-gothic;
+	position: auto, 5px;
+	display: inline-block;
+	border-color: #E6E6E6;
+	border-radius: 10px;
+	background: linear-gradient( to top, #000000, #000001, #fff);
+}
+.navigation-bar ul{
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 0;
+	list-style: none;
+}
+.navigation-bar ul li {
+	display: inline;
+	margin-right:80px;
+}
+
+/** Fonts **/
+
+@font-face {
+    font-family: league-gothic;
+    src: url(assets/fonts/league-gothic.ttf);
+}
